@@ -1,0 +1,40 @@
+*{
+    background-color:beige}
+#container{
+    display: grid;
+    background-color: black;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: auto auto auto auto;
+    grid-gap:40px;
+   color: white;
+   margin-left: 25%;
+  
+
+}
+div{
+    width:150px;
+    height:150px;
+    background-color: black;
+    border-radius:10%;
+}
+div:hover{
+    background-color: rgb(188, 167, 167);
+    transition: 1s;
+
+
+}
+img{
+    width:150px;
+    height: 150px;
+    visibility: hidden;
+    border-radius:10%;
+}
+#timer{
+    width:100px;
+    height:50px;
+    background-color: (black);
+    color: white;
+    
+}
+
+
