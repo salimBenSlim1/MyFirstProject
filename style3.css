@@ -1,0 +1,24 @@
+*{
+    background-color: beige;
+   }
+   h1{
+       font-size:120px;
+   }
+   button{
+       width:300px;
+       height: 100px;
+       cursor:pointer;
+       font-size: 20px;
+       margin-left: 70%;
+       background-color: bisque;
+   }
+   a{
+       text-decoration: none;
+       color: black;
+       background-color: bisque;
+   }
+   button:hover{
+       width:310px;
+       height: 110px;
+       transition: 1s;
+   }

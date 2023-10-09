@@ -1,14 +1,74 @@
 *{
     
-background: url("image.jpg") no-repeat center center fixed; 
-  background-size: cover;
+background-color: beige; }
+h2 a{
+    color:black;
+    font-size: 50px;
+    cursor: pointer;
+    
+    text-decoration: none;
+   
+}
+h2{
+  text-align: center;
+  margin-top: 15%;
 
 }
-#start{
-    color:white;
-    font-size: 50px;
-    margin-left:30%;
-    margin-top:20%;
-    cursor: pointer;
-    background-color: antiquewhite;
+div{
+  position:absolute;
+  width:150px;
+  height:400px;
+  background-color: black;
+  transform:rotate(50deg);
+  opacity: 0.85;
+}
+
+.black1{
+  margin-left: 10%;
+}
+.black2{
+  margin-left: 20%;
+}
+.black3{
+  margin-left: 30%;
+}
+.black{
+  margin-left: 40%;
+}
+.black6{
+  margin-left: 50%;
+}
+.black7{
+  margin-left: 60%;
+}
+.black8{
+  margin-left: 70%;
+}
+.black9{
+  margin-left: 80%;
+}
+.black4{
+  height: 500px;
+  opacity: 0.1;
+  margin-top: -23%;
+  margin-left: 50%;
+  border-radius: 50%;
+  width: 500px;
+}
+.black5{
+  opacity: 0.5;
+  margin-top: -15%;
+  margin-left: 0%;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.white{
+  opacity: 0.57;
+  margin-top: -21%;
+  margin-left: -3%;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+
 }
