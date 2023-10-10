@@ -13,9 +13,10 @@ for(let i=1;i<17;i++){
     $('#img'+i).css({'visibility':'hidden'})
     }, 2000)
    
-    verif(arr,$('#img'+i)[0].src,time)
+    verif(arr,i,time)
     console.log(arr)
-    if(arr[0].index===arr[1].index){
+    console.log(i)
+    if($('#img'+arr[0].index)[0].src===$('#img'+arr[1].index)[0].src && arr[0].index!==arr[1].index ){
         s++
         console.log(arr[0].index)
             clearTimeout(arr[0].set)
